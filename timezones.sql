@@ -1,8 +1,8 @@
 CREATE TABLE timezones (   
 	regions varchar(80),   
-	hours integer not null, 
-	minutes integer not null,
-	primary key(city)
+	hrs integer not null, 
+	mins integer not null,
+	primary key(regions)
 );
 
 
